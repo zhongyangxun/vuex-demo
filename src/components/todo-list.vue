@@ -45,7 +45,8 @@
           let list = this.todoList.slice();
           list.push({
             text: itemText,
-            done: false
+            done: false,
+            checked: false
           })
           this.setTodoList(list)
         }
